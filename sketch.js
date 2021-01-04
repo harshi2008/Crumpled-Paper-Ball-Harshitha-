@@ -66,11 +66,10 @@ function draw(){
 function keyPressed(){
 if(keyCode===32){
 Matter.Body.applyForce(ball1.body, ball1.body.position, {x:150, y:-55})
-}
-
-if(keyCode===117){
 Matter.Body.applyForce(ball2.body, ball2.body.position, {x:150, y:-325})
 }
+
+
 }
 
 
